@@ -1,0 +1,109 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin: 0; 
+}
+
+.header { 
+    display: flex; 
+    align-items: center; 
+}
+
+.logo { 
+    width: 50px; 
+    height: 50px; 
+    background: black; 
+    color: white; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-weight: bold; 
+    margin: 10px; 
+}
+
+.navbar { 
+    flex: 1; 
+    display: flex; 
+}
+
+.navbar div 
+{ flex: 1; 
+    padding: 15px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.nav-left { 
+    background: #fff2cc; 
+}
+
+.nav-center 
+{ background: #c2d6ff; 
+}
+
+.nav-right { 
+    background: #ffd9d9; 
+}
+
+.shop-container { 
+    background: blueviolet; 
+    padding: 20px; 
+}
+
+.shop-items { 
+    display: flex; 
+    justify-content: center; 
+    gap: 270px; 
+    margin-bottom: 20px; 
+}
+
+.shop-item { 
+    width: 120px; 
+    height: 120px; 
+    background: black; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid white; 
+}
+
+.big-box { 
+    width: 80%; 
+    height: 50px; 
+    background: black; 
+    margin: 0 auto 20px auto; 
+    border: 2px solid white; 
+}
+
+.footer { 
+    display: flex; 
+}
+
+.footer-left { 
+    flex: 1; 
+    background: darkred; 
+    height: 50px; 
+}
+
+.footer-right { 
+    flex: 1; 
+    background: black; 
+    height: 50px; 
+}
+
+.bilderchen {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-bottom: 20px; 
+}
+
+.bilder {
+    height: 400px;
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-bottom: 20px; 
+}
