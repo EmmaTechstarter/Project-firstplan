@@ -1,4 +1,6 @@
 .imptext {
     text-align: center;
     padding: 4px;
+    box-sizing: border-box;
+    
 }
