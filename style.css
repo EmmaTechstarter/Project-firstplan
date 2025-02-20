@@ -76,6 +76,9 @@ body {
     margin: 0 auto 20px auto; 
     border: 2px solid white; 
 }
+.big-box h1 {
+    color: aqua;
+}
 
 .footer { 
     display: flex; 
