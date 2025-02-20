@@ -51,6 +51,24 @@ body {
     padding: 20px; 
 }
 
+.links-navbar {
+    background-color:black;
+    padding: 15px;
+    text-align: center;
+}
+.links-navbar a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+.links-navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
 .big-box { 
     width: 80%; 
     height: 50px; 
@@ -74,3 +92,4 @@ body {
     background: black; 
     height: 50px; 
 }
+  
